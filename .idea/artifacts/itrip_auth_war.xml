@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="itrip-auth:war">
+    <output-path>$PROJECT_DIR$/itrip-auth/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>itrip-auth</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itrip-auth.war">
+      <element id="artifact" artifact-name="itrip-auth:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="itrip-auth:war exploded" />
+      <artifact name="itrip-biz:war exploded" />
+      <artifact name="itrip-search:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10b4b48b-fe64-4c7a-b115-72204b12e4e9" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/itrip-auth/target/" />
+    <ignored path="$PROJECT_DIR$/itrip-beans/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/itrip-dao/target/" />
+    <ignored path="$PROJECT_DIR$/itrip-utils/target/" />
+    <ignored path="$PROJECT_DIR$/itrip-biz/target/" />
+    <ignored path="$PROJECT_DIR$/itrip-search/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="itrip" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/UserInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="92" column="29" selection-start-line="92" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotelorder/HotelOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>featureIds</find>
+      <find>keywords</find>
+      <find>address</find>
+      <find>CCPRestSmsSDK</find>
+      <find>cloopen</find>
+      <find>commentCount</find>
+      <find>avgScore</find>
+      <find>itripImages</find>
+      <find>新增评论</find>
+      <find>querytradearea</find>
+      <find>bookType</find>
+      <find>orderProcess</find>
+      <find>adduserlinkuser</find>
+      <find>新增</find>
+      <find>linkPhone</find>
+      <find>联系人</find>
+      <find>value</find>
+      <find>个人订单</find>
+      <find>查看个人</find>
+      <find>checkInDate</find>
+      <find>beginPos</find>
+      <find>查询评论</find>
+      <find>getcommentlist</find>
+      <find>pageSize</find>
+      <find>orderType</find>
+      <find>订单</find>
+      <find>#{pageNo}</find>
+      <find>查询个人订单</find>
+      <find>getpersonalorderinfo</find>
+      <find>findCommentList</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/comment/ItripScoreCommentVO.java" />
+        <option value="$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/comment/ItripCountCommentVO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/itrip-utils/src/main/java/cn/itrip/common/Page.java" />
+        <option value="$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/comment/ItripSearchCommentVO.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotel/ItripHotelMapper.xml" />
+        <option value="$PROJECT_DIR$/itrip-auth/src/main/java/cn/itrip/auth/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-auth/src/main/resources/applicationContext-mail.xml" />
+        <option value="$PROJECT_DIR$/itrip-auth/src/main/resources/sms.properties" />
+        <option value="$PROJECT_DIR$/itrip-auth/src/main/java/cn/itrip/auth/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/itrip-auth/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/itrip-auth/src/main/java/cn/itrip/auth/service/SmsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelorder/ItripHotelOrderMapper.xml.fxml" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/beans/vo/hotel/solrutils/Utils.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/beans/vo/hotel/service/ItripHotelListService.java" />
+        <option value="$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/hotel/SearchHotelVO.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/beans/vo/hotel/service/ItripHotelListServiceImp.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/beans/vo/hotel/controller/HotelListController.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/ItripHotelVO.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/Test.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/service/ItripHotelListService.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/solrutils/Utils.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/resources/applicationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/service/ItripHotelListServiceImp.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelcomment/ItripHotelCommentMapper.xml" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/user/ItripUserMapper.xml" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/user/ItripUserService.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/user/ItripUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/user/ItripUserMapper.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/controller/HotelListController.java" />
+        <option value="$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/order/ItripSearchOrderVO.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotel/ItripHotelMapper.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/find/ItripFindService.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/find/ItripFindServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotel/HotelController.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotelroom/HotelRoom.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelroom/ItripRoomService.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelcomment/ItripCommentService.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/comment/HotelComment.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelroom/ItripRoomServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelroom/ItripHotelRoomMapper.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelcomment/ItripHotelCommentMapper.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelcomment/ItripCommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/order/ItripPersonalHotelOrderVO.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelorder/ItripHotelOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelorder/ItripOrderService.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelorder/ItripOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelorder/ItripHotelOrderMapper.java" />
+        <option value="$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotelorder/HotelOrder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Y2\RJ\IDEA\maven\LocalWarehouse" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../RJ/IDEA/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\Y2\RJ\IDEA\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itrip" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itrip" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itrip-biz Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="362" />
+    <option name="y" value="-11" />
+    <option name="width" value="1412" />
+    <option name="height" value="1012" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelroom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="t226itrip" type="462c0819:PsiDirectoryNode" />
+              <item name="itrip-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/cn/itrip/itrip-beans/1.0-SNAPSHOT/itrip-beans-1.0-SNAPSHOT.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33488372" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Y2\ZY\t226itrip\itrip-dao\src\main\java\cn\itrip\dao\hotelroom" />
+      <recent name="F:\Y2\ZY\t226itrip\itrip-dao\src\main\java\cn\itrip\dao\hotel" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itrip.service.hotelorder" />
+      <recent name="cn.itrip.controller.comment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Y2\ZY\t226itrip\itrip-dao\src\main\java\cn\itrip\dao\hotelorder" />
+      <recent name="F:\Y2\ZY\t226itrip\itrip-dao\src\main\java\cn\itrip\dao\hotelcomment" />
+      <recent name="F:\Y2\ZY\t226itrip\itrip-dao\src\main\java\cn\itrip\dao\hotel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.apache-tomcat-8.5.37">
+    <configuration name="ItripHotelListServiceImp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itrip.service.ItripHotelListServiceImp" />
+      <module name="itrip-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itrip.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItripHotelListServiceImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itrip.beans.vo.hotel.service.ItripHotelListServiceImp" />
+      <module name="itrip-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itrip.beans.vo.hotel.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itrip.Test" />
+      <module name="itrip-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itrip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <module name="itrip-biz" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="apache-tomcat-8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="apache-tomcat-8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://www.itrip.com" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="itrip-auth:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/itrip-auth" />
+          </settings>
+        </artifact>
+        <artifact name="itrip-biz:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/itrip-biz" />
+          </settings>
+        </artifact>
+        <artifact name="itrip-search:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/itrip-search" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_itrip_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65063" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="itrip-auth:war exploded" />
+          <artifact name="itrip-biz:war exploded" />
+          <artifact name="itrip-search:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.ItripHotelListServiceImp" />
+      <item itemvalue="Application.ItripHotelListServiceImp (1)" />
+      <item itemvalue="Tomcat Server.apache-tomcat-8.5.37" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ItripHotelListServiceImp (1)" />
+        <item itemvalue="Application.ItripHotelListServiceImp" />
+        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10b4b48b-fe64-4c7a-b115-72204b12e4e9" name="Default Changelist" comment="" />
+      <created>1565614927379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565614927379</updated>
+      <workItem from="1565614930521" duration="334000" />
+      <workItem from="1565615267097" duration="137000" />
+      <workItem from="1565615407632" duration="846000" />
+      <workItem from="1565616283717" duration="234000" />
+      <workItem from="1565654450935" duration="1136000" />
+      <workItem from="1565655605928" duration="2133000" />
+      <workItem from="1565657766811" duration="174000" />
+      <workItem from="1565657963674" duration="11942000" />
+      <workItem from="1565676195855" duration="12204000" />
+      <workItem from="1565688469678" duration="720000" />
+      <workItem from="1565740661139" duration="23953000" />
+      <workItem from="1565771169854" duration="5328000" />
+      <workItem from="1565826623838" duration="21380000" />
+      <workItem from="1565855634137" duration="4567000" />
+      <workItem from="1565915500637" duration="25982000" />
+      <workItem from="1565960337741" duration="74000" />
+      <workItem from="1566001056770" duration="18508000" />
+      <workItem from="1566174313324" duration="22185000" />
+      <workItem from="1566207517278" duration="4441000" />
+      <workItem from="1566260361079" duration="8518000" />
+      <workItem from="1566347103813" duration="19534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="184330000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7088" visible="true" weight="0.14072494" />
+      <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.16577825" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008" side_tool="true" weight="0.16577825" />
+      <window_info id="Web" order="7" sideWeight="0.2912" side_tool="true" weight="0.16577825" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29035753" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19393283" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15138593" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7088" visible="true" weight="0.14072494" />
+      <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.16577825" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008" side_tool="true" weight="0.16577825" />
+      <window_info id="Web" order="7" sideWeight="0.2912" side_tool="true" weight="0.16577825" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10184182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19393283" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15138593" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/itrip-search/src/test/service/TestSearchHotelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/comment/ItripAddCommentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-auth/src/main/java/cn/itrip/auth/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3394">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-auth/src/main/java/cn/itrip/auth/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2001">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/userinfo/ItripSearchUserLinkUserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-utils/src/main/java/cn/itrip/common/ValidationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotel/ItripHotelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1063" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/userlinkuser/ItripUserLinkUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/userlinkuser/ItripUserLinkUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/userlinkuser/ItripUserLinkUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/target/classes/cn/itrip/beans/vo/userinfo/ItripAddUserLinkUserVO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/itrip/itrip-beans/1.0-SNAPSHOT/itrip-beans-1.0-SNAPSHOT.jar!/cn/itrip/beans/vo/userinfo/ItripAddUserLinkUserVO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/userinfo/ItripAddUserLinkUserVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/order/ItripPersonalOrderRoomVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-utils/src/main/java/cn/itrip/common/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/itrip/itrip-beans/1.0-SNAPSHOT/itrip-beans-1.0-SNAPSHOT.jar!/cn/itrip/beans/vo/hotel/SearchHotCityVO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/controller/HotelListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="62" column="67" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-search/src/main/java/cn/itrip/service/ItripHotelListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/comment/ItripSearchCommentVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/pojo/ItripComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelroom/ItripHotelRoomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/order/ItripListHotelOrderVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelcomment/ItripHotelCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="65" column="6" selection-start-line="65" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/order/ItripSearchOrderVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/itrip/itrip-beans/1.0-SNAPSHOT/itrip-beans-1.0-SNAPSHOT.jar!/cn/itrip/beans/vo/order/ItripListHotelOrderVO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/user/ItripUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="240" column="86" selection-start-line="240" selection-start-column="86" selection-end-line="240" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/user/ItripUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotel/ItripHotelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="36" column="96" selection-start-line="36" selection-start-column="96" selection-end-line="36" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/find/ItripFindService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="38" column="104" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/user/ItripUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/find/ItripFindServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotelroom/HotelRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="69" column="81" lean-forward="true" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
+          <folding>
+            <element signature="e#2345#2363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelroom/ItripRoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="91" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelcomment/ItripCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/comment/HotelComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="12" selection-end-line="203" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelroom/ItripRoomServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelroom/ItripHotelRoomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelcomment/ItripHotelCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelcomment/ItripCommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/itrip/itrip-beans/1.0-SNAPSHOT/itrip-beans-1.0-SNAPSHOT.jar!/cn/itrip/beans/vo/order/ItripPersonalHotelOrderVO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/itrip/itrip-beans/1.0-SNAPSHOT/itrip-beans-1.0-SNAPSHOT.jar!/cn/itrip/beans/vo/order/ItripPersonalOrderRoomVO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelorder/ItripHotelOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="99" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-beans/src/main/java/cn/itrip/beans/vo/order/ItripPersonalHotelOrderVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelorder/ItripOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/hotelorder/ItripOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-dao/src/main/java/cn/itrip/dao/hotelorder/ItripHotelOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotel/HotelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="220" column="32" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/service/user/ItripUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" column="92" lean-forward="true" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="92" column="29" selection-start-line="92" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itrip-biz/src/main/java/cn/itrip/controller/hotelorder/HotelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>itrip-auth:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33488372" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (itrip-search)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33488372" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33488372" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33488372" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>itrip-biz</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33488372" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cn.itrip:itrip-jregex:1.2_01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33488372" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

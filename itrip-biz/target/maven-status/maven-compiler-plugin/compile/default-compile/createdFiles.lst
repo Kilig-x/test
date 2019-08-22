@@ -1,0 +1,17 @@
+cn\itrip\service\hotelcomment\ItripCommentService.class
+cn\itrip\service\userlinkuser\ItripUserLinkUserServiceImpl.class
+cn\itrip\controller\comment\HotelComment.class
+cn\itrip\service\hotelroom\ItripRoomService.class
+cn\itrip\service\user\ItripUserService.class
+cn\itrip\service\userlinkuser\ItripUserLinkUserService.class
+cn\itrip\controller\hotel\HotelController.class
+cn\itrip\service\find\ItripFindServiceImpl.class
+cn\itrip\service\hotelcomment\ItripCommentServiceImpl.class
+cn\itrip\service\find\ItripFindService.class
+cn\itrip\service\user\ItripUserServiceImpl.class
+cn\itrip\controller\hotelorder\HotelOrder.class
+cn\itrip\service\hotelroom\ItripRoomServiceImpl.class
+cn\itrip\service\hotelorder\ItripOrderServiceImpl.class
+cn\itrip\controller\hotelroom\HotelRoom.class
+cn\itrip\controller\UserInfoController.class
+cn\itrip\service\hotelorder\ItripOrderService.class

@@ -1,0 +1,6 @@
+cn\itrip\service\ItripHotelListServiceImp.class
+cn\itrip\controller\HotelListController.class
+cn\itrip\solrutils\Utils.class
+cn\itrip\Test.class
+cn\itrip\ItripHotelVO.class
+cn\itrip\service\ItripHotelListService.class

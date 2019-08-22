@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itrip.dao.hotelroom.ItripHotelRoomMapper">
+
+    <!--查询房间图片-->
+    <select id="getItripHotelImg" resultType="cn.itrip.beans.vo.ItripImageVO" parameterType="java.lang.Integer">
+            SELECT imgUrl,`position` FROM itrip_image WHERE id = #{cityId}
+    </select>
+
+
+    <!--查询酒店房型列表-->
+    <select id="getItripQueryHotelRoomByHotel" resultType="cn.itrip.beans.vo.hotelroom.ItripHotelRoomVO"
+            parameterType="cn.itrip.beans.vo.hotelroom.ItripHotelRoomVO">
+        SELECT * FROM itrip_hotel_room WHERE 1 = 1
+        <if test="hotelId !='' and hotelId != null">
+            AND hotelId=#{hotelId}
+        </if>
+        <if test="isBook !='' and isBook != null">
+            AND isBook=#{isBook}
+        </if>
+        <if test="isCancel !='' and isCancel != null">
+            AND isCancel=#{isCancel}
+        </if>
+        <if test="isHavingBreakfast !='' and isHavingBreakfast != null">
+            AND isHavingBreakfast=#{isHavingBreakfast}
+        </if>
+        <if test="isTimelyResponse !='' and isTimelyResponse != null">
+            AND isTimelyResponse=#{isTimelyResponse}
+        </if>
+        <if test="payType !='' and payType != null">
+            AND payType=#{payType}
+        </if>
+        <if test="roomBedTypeId !='' and roomBedTypeId != null">
+            AND roomBedTypeId=#{roomBedTypeId}
+        </if>
+    </select>
+
+    <!--查询床型-->
+    <select id="getHotelLabelDicVO" resultType="cn.itrip.beans.vo.ItripLabelDicVO">
+             SELECT id,pic,`name`,description FROM itrip_label_dic
+    </select>
+
+
+</mapper>

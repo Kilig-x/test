@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="itrip-biz:war">
+    <output-path>$PROJECT_DIR$/itrip-biz/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>itrip-biz</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itrip-biz.war">
+      <element id="artifact" artifact-name="itrip-biz:war exploded" />
+    </root>
+  </artifact>
+</component>

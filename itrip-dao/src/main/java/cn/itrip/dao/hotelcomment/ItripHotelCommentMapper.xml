@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itrip.dao.hotelcomment.ItripHotelCommentMapper">
+
+    <!--查询酒店评分-->
+    <select id="getHotelScore" resultMap="getItripScoreCommentVO">
+            SELECT facilitiesScore,hygieneScore,positionScore,score,serviceScore FROM itrip_comment WHERE id = #{cityId}
+    </select>
+
+    <!--查询酒店-->
+    <select id="getCount" resultType="cn.itrip.beans.vo.comment.ItripCountCommentVO"
+            parameterType="java.lang.Integer">
+            SELECT DISTINCT(SELECT COUNT(isOK)FROM itrip_comment WHERE hotelId = #{cityId} AND isOK = 1 )AS isok,
+                   (SELECT COUNT(isOK)FROM itrip_comment WHERE hotelId = #{cityId} AND isOK =0 )AS improve,
+                  (SELECT COUNT(isHavingImg)FROM itrip_comment WHERE hotelId = #{cityId} AND isHavingImg = 1 )AS havingimg,
+                 (SELECT COUNT(*)FROM itrip_comment WHERE hotelId = #{cityId})AS allcomment
+             FROM itrip_comment
+    </select>
+
+    <!--查询酒店评论分页-->
+    <select id="getCommentList" resultType="cn.itrip.beans.pojo.ItripComment"
+            parameterType="cn.itrip.beans.vo.comment.ItripSearchCommentVO">
+        SELECT * FROM itrip_comment WHERE hotelId=#{hotelId}
+        <if test="isOk != -1">
+            AND isOk = #{isOk}
+        </if>
+        <if test="isHavingImg != -1">
+            AND isHavingImg = #{isHavingImg}
+        </if>
+        LIMIT #{pageNo},#{pageSize}
+    </select>
+
+    <!--查询总条数-->
+    <select id="getPageCount" resultType="int" parameterType="cn.itrip.beans.vo.comment.ItripSearchCommentVO">
+        SELECT count(*) FROM itrip_comment WHERE hotelId=#{hotelId}
+        <if test="isOk != -1">
+            AND isOk = #{isOk}
+        </if>
+        <if test="isHavingImg != -1">
+            AND isHavingImg = #{isHavingImg}
+        </if>
+    </select>
+
+    <!--查询房间图片-->
+    <select id="getCommentImg" resultType="cn.itrip.beans.vo.ItripImageVO" parameterType="java.lang.Integer">
+            SELECT imgUrl,`position` FROM itrip_image WHERE id = #{commentId}
+    </select>
+
+
+    <!--查询评论详情-->
+    <select id="getItripHotelDesc" resultType="cn.itrip.beans.vo.comment.ItripHotelDescVO"
+            parameterType="java.lang.Integer">
+    SELECT * FROM itrip_hotel WHERE id = #{hotelId}
+    </select>
+
+    <!--查询旅游类型列表-->
+    <select id="getItripTravelType" resultType="cn.itrip.beans.vo.ItripLabelDicVO">
+        SELECT id,`name`,pic,description FROM itrip_label_dic
+    </select>
+
+    <insert id="getItripCommentAdd" parameterType="cn.itrip.beans.vo.comment.ItripAddCommentVO">
+        INSERT INTO itrip_comment(hotelId,orderId,productId,productType,isHavingImg,
+positionScore,facilitiesScore,serviceScore,hygieneScore,tripMode,isOk,content,userId,`creationDate`)
+VALUES(#{hotelId},#{orderId},#{productId},#{productType},#{isHavingImg},#{positionScore},#{facilitiesScore},
+#{serviceScore},#{hygieneScore},#{tripMode},#{isOk},#{content},#{userId},#{creationDate})
+    </insert>
+
+
+    <resultMap id="getItripScoreCommentVO" type="cn.itrip.beans.vo.comment.ItripScoreCommentVO">
+        <id property="id" column="id"/>
+        <result property="avgPositionScore" column="positionScore"/>
+        <result property="avgFacilitiesScore" column="facilitiesScore"/>
+        <result property="avgServiceScore" column="serviceScore"/>
+        <result property="avgHygieneScore" column="hygieneScore"/>
+        <result property="avgScore" column="score"/>
+    </resultMap>
+</mapper>

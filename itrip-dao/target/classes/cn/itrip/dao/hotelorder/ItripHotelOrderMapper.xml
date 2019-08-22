@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itrip.dao.hotelorder.ItripHotelOrderMapper">
+
+
+    <!--查询酒店评分-->
+    <select id="getPersonalOrderRoomInfo" resultType="cn.itrip.beans.vo.order.ItripPersonalOrderRoomVO"
+            parameterType="int">
+            SELECT  id,hotelId,productId,orderId,productType,content,userId,
+            isHavingImg,positionScore,facilitiesScore,serviceScore,hygieneScore,
+            score,tripMode,isOk,creationDate,createdBy,modifyDate,modifiedBy
+            FROM itrip_comment WHERE id = #{hotelId}
+    </select>
+
+    <!--获取个人订单信息-->
+    <select id="getPpersonalOrderInfo" resultType="cn.itrip.beans.vo.order.ItripPersonalOrderRoomVO"
+            parameterType="int">
+        SELECT ih.address,iho.bookingDays,((DAY(iho.checkInDate)+WEEKDAY(iho.checkInDate-INTERVAL DAY(iho.checkInDate) DAY)) DIV 7 + 1) AS 'checkInWeek',((DAY(iho.checkOutDate)+WEEKDAY(iho.checkOutDate-INTERVAL DAY(iho.checkOutDate) DAY)) DIV 7 + 1) AS 'checkOutWeek',iho.checkOutDate,iho.checkInDate,iho.count,iho.hotelId,ih.hotelLevel,ih.hotelName,iho.id,ihr.isHavingBreakfast,iho.payAmount,ihr.roomBedTypeId,iad.`name`,ihr.id AS 'roomId',ihr.payType AS 'roomPayType',ihr.roomTitle,iho.specialRequirement,iho.linkUserName
+        FROM itrip_hotel ih,itrip_hotel_order iho,itrip_hotel_room ihr,itrip_label_dic iad
+        WHERE iho.roomId=ihr.id AND iho.hotelId=ih.id AND iho.id=#{hotelId} AND ihr.roomBedTypeId=iad.id
+    </select>
+
+    <!--获取个人酒店订单信息列表-->
+    <select id="getPersonalOrderList" resultType="cn.itrip.beans.vo.order.ItripListHotelOrderVO"
+            parameterType="cn.itrip.beans.vo.order.ItripSearchOrderVO">
+        SELECT checkInDate,creationDate,hotelId,hotelName,id,linkUserName,orderNo,orderStatus,orderType,payAmount
+        FROM itrip_hotel_order WHERE userId = #{userId} LIMIT #{pageNo},#{pageSize}
+    </select>
+
+    <!--获取个人订单总数-->
+    <select id="getOrderCount" resultType="int">
+        select  count(*) FROM itrip_hotel_order
+    </select>
+</mapper>

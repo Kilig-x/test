@@ -1,0 +1,6 @@
+cn\itrip\dao\hotel\ItripHotelMapper.class
+cn\itrip\dao\user\ItripUserMapper.class
+cn\itrip\dao\hotelcomment\ItripHotelCommentMapper.class
+cn\itrip\dao\hotelroom\ItripHotelRoomMapper.class
+cn\itrip\dao\userlinkuser\ItripUserLinkUserMapper.class
+cn\itrip\dao\hotelorder\ItripHotelOrderMapper.class

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itrip.dao.hotel.ItripHotelMapper">
+
+
+    <!--查询热门城市-->
+    <select id="getQueryHotcity" resultMap="getItripCityByIdMap" parameterType="java.lang.Integer">
+            SELECT * FROM itrip_area_dic WHERE isHot=1 AND isChina = #{cityId}
+    </select>
+
+    <!--查询所有酒店特色-->
+    <select id="getItripQueryHotelFeatures" resultType="cn.itrip.beans.vo.ItripLabelDicVO">
+             SELECT  id,`name`,description FROM itrip_label_dic
+    </select>
+
+    <!--查询城市商圈-->
+    <select id="getItripQueryTradearea" resultType="java.lang.String"
+            parameterType="java.lang.Integer">
+             SELECT `name` FROM itrip_area_dic WHERE id IN
+    (SELECT areaId FROM itrip_hotel_trading_area WHERE hotelId=#{cityId})
+    </select>
+
+    <!--获取酒店视频信息-->
+    <!--查询酒店名称-->
+    <select id="getItripHotelName" resultType="java.lang.String">
+    SELECT hotelName FROM itrip_hotel WHERE id= #{cityId}
+    </select>
+
+    <!-- 获取特色 -->
+    <select id="getItripHotelFeatureList" resultType="java.lang.String">
+
+    SELECT `name` FROM itrip_label_dic WHERE id IN
+    (SELECT featureId FROM itrip_hotel_feature WHERE hotelId= #{cityId})
+    </select>
+
+    <!-- 获取商圈 -->
+    <select id="getItripTradingAreaNameList" resultType="java.lang.String">
+    SELECT `name` FROM itrip_area_dic WHERE id IN
+    (SELECT areaId FROM itrip_hotel_trading_area WHERE hotelId = #{cityId})
+    </select>
+
+
+    <!--查询酒店描述和特色-->
+    <select id="getItripQueryHotelDetails" resultType="cn.itrip.beans.pojo.ItripLabelDic">
+        SELECT ild.`name`,ild.description
+        FROM itrip_hotel_feature ihf,itrip_hotel ih,itrip_label_dic ild
+        WHERE ihf.hotelId=ih.id AND ild.id=ihf.featureId AND ih.id=#{cityId}
+    </select>
+
+    <!--查询酒店设施-->
+    <select id="getItripQueryHotelFacilities" resultType="java.lang.String">
+             SELECT facilities FROM itrip_hotel WHERE id = #{cityId}
+    </select>
+
+    <!--查询酒店设施-->
+    <select id="getItripQueryHotelPolicy" resultType="java.lang.String">
+             SELECT hotelPolicy FROM itrip_hotel WHERE id = #{cityId}
+    </select>
+
+    <!--查询酒店图片-->
+    <select id="getItripHotelImg" resultType="cn.itrip.beans.vo.ItripImageVO" parameterType="java.lang.Integer">
+            SELECT imgUrl,`position` FROM itrip_image WHERE id = #{roomId}
+    </select>
+
+    <resultMap id="getItripCityByIdMap" type="cn.itrip.beans.vo.ItripLabelDicVO">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="pic" property="pic"/>
+    </resultMap>
+</mapper>
